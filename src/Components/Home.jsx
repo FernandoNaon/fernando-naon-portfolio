@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className={style.homeContainer}>
       <div className={style.left}>
-        <h1>Hi there, I’m Fernando Naon.</h1>
+        <h1>Hi there, I’m Fernando.</h1>
         <h2>Fullstack web developer</h2>
       </div>
       <div className={style.right}>
