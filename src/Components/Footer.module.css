@@ -1,0 +1,19 @@
+.FooterContainer {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  top: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: rgb(236, 227, 227);
+}
+.iconsContainer {
+  display: flex;
+  gap: 50px;
+}
+
+.icon {
+  height: 2.5rem;
+}

@@ -1,0 +1,54 @@
+.skillsContainer {
+  /* border: 2px solid red; */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.mainTitle {
+  height: 100px;
+  text-align: center;
+}
+
+.cardContainer {
+  display: flex;
+}
+
+.card {
+  position: relative;
+  width: 350px;
+  height: 180px;
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background-color: rgba(250, 250, 250, 0.356);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid rgba(255, 255, 255, 0.5); */
+  /* border-left: 1px solid rgba(255, 255, 255, 0.5); */
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-top: 2px;
+}
+
+.iconsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon {
+  height: 55px;
+  width: auto;
+  margin: 3px;
+}

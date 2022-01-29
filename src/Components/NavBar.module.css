@@ -1,0 +1,16 @@
+.navContainer {
+  display: flex;
+  justify-content: center;
+  top: 10%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: white;
+  gap: 30px;
+}
+
+.title {
+  color: white;
+  font-size: 1.2rem;
+}
