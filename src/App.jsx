@@ -7,6 +7,7 @@ import style from "./App.module.css";
 import NavBar from "./Components/NavBar";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
+import Projects from "./Components/Projects";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/skills" component={Skills} />
           <Route path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
 
           {/* <CenterTitle /> */}
         </Switch>

@@ -20,15 +20,14 @@
   /* background-color: rgba(240, 248, 255, 0.5); */
   overflow: hidden;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  /* border: 1px solid rgba(255, 255, 255, 0.5); */
-  /* border-left: 1px solid rgba(255, 255, 255, 0.5); */
   backdrop-filter: blur(2px);
-  display: flex;
   flex-direction: column;
 }
 
-p {
+.text {
   font-size: 1.3rem;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
 }

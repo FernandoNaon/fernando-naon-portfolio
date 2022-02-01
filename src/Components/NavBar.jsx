@@ -5,16 +5,16 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div className={style.navContainer}>
-      <Link to="/">
+      <Link to="/" className={style.noUnderline}>
         <h4 className={style.title}>Home</h4>
       </Link>
-      <Link to="/about">
+      <Link to="/about" className={style.noUnderline}>
         <h4 className={style.title}>About me</h4>
       </Link>
-      <Link to="/skills">
+      <Link to="/skills" className={style.noUnderline}>
         <h4 className={style.title}>Tech Skills</h4>
       </Link>
-      <Link to="/skills">
+      <Link to="/projects" className={style.noUnderline}>
         <h4 className={style.title}>Projects</h4>
       </Link>
     </div>

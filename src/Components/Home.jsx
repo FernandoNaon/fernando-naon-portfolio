@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./Home.module.css";
-import profilePic from "../Assets/profile1.png";
+import profilePic from "../Assets/profile1-w.png";
+// import profilePic from "../Assets/skills/tooling/portfolio.png";
 
 const Home = () => {
   return (
