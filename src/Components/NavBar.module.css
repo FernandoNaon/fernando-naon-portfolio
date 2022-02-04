@@ -11,10 +11,16 @@
 }
 
 .title {
-  color: white;
+  color: rgb(255, 239, 239);
   font-size: 1.2rem;
 }
 
 .noUnderline {
   text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2em;
 }

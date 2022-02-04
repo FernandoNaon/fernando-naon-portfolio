@@ -15,34 +15,36 @@ import firebase from "../Assets/skills/backend/firebase.svg";
 const Skills = () => {
   return (
     <div className={style.skillsContainer}>
-      <div className={style.mainTitle}>
-        <h1>Tech Skills</h1>
-      </div>
-      <div className={style.cardContainer}>
-        <div className={style.card}>
-          <h1 className={style.title}>FrontEnd</h1>
-          <div className={style.iconsContainer}>
-            <img src={html} alt="html" className={style.icon} />
-            <img src={css} alt="css" className={style.icon} />
-            <img src={js} alt="js" className={style.icon} />
-            <img src={react} alt="react" className={style.icon} />
-            <img src={redux} alt="redux" className={style.icon} />
-          </div>
+      <div className={style.techSkills}>
+        <div className={style.mainTitle}>
+          <h1>Tech Skills</h1>
         </div>
-        <div className={style.card}>
-          <h1 className={style.title}>BackEnd</h1>
-          <div className={style.iconsContainer}>
-            <img src={node} alt="node" className={style.icon} />
-            <img src={express} alt="express" className={style.icon} />
+        <div className={style.cardContainer}>
+          <div className={style.card}>
+            <h1 className={style.title}>FrontEnd</h1>
+            <div className={style.iconsContainer}>
+              <img src={html} alt="html" className={style.icon} />
+              <img src={css} alt="css" className={style.icon} />
+              <img src={js} alt="js" className={style.icon} />
+              <img src={react} alt="react" className={style.icon} />
+              <img src={redux} alt="redux" className={style.icon} />
+            </div>
           </div>
-        </div>
-        <div className={style.card}>
-          <h1 className={style.title}>Data Base</h1>
-          <div className={style.iconsContainer}>
-            <img src={postgres} alt="posgresSQL" className={style.icon} />
-            <img src={sequelize} alt="sequelize" className={style.icon} />
-            <img src={mongo} alt="mongoDB" className={style.icon} />
-            <img src={firebase} alt="firebase" className={style.icon} />
+          <div className={style.card}>
+            <h1 className={style.title}>BackEnd</h1>
+            <div className={style.iconsContainer}>
+              <img src={node} alt="node" className={style.icon} />
+              <img src={express} alt="express" className={style.icon} />
+            </div>
+          </div>
+          <div className={style.card}>
+            <h1 className={style.title}>Data Base</h1>
+            <div className={style.iconsContainer}>
+              <img src={postgres} alt="posgresSQL" className={style.icon} />
+              <img src={sequelize} alt="sequelize" className={style.icon} />
+              <img src={mongo} alt="mongoDB" className={style.icon} />
+              <img src={firebase} alt="firebase" className={style.icon} />
+            </div>
           </div>
         </div>
       </div>

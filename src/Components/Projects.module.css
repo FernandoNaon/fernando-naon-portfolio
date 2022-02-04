@@ -6,3 +6,46 @@
   position: absolute;
   color: white;
 }
+
+.cardContainer {
+  display: flex;
+}
+
+.card {
+  position: relative;
+  width: 400px;
+  height: auto;
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background-color: rgba(250, 250, 250, 0.356);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid rgba(255, 255, 255, 0.5); */
+  /* border-left: 1px solid rgba(255, 255, 255, 0.5); */
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  padding: 0.5rem;
+}
+.linksContainer {
+  display: flex;
+  gap: 2rem;
+}
+/* .links {
+  text-decoration: none !important;
+  color: rgb(255, 255, 255);
+} */
+a {
+  text-decoration: none !important;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.377);
+  margin: 0.6rem;
+  border-radius: 10%;
+  padding: 00.5rem;
+}

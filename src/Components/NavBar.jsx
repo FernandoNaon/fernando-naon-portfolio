@@ -5,18 +5,28 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div className={style.navContainer}>
-      <Link to="/" className={style.noUnderline}>
-        <h4 className={style.title}>Home</h4>
-      </Link>
-      <Link to="/about" className={style.noUnderline}>
-        <h4 className={style.title}>About me</h4>
-      </Link>
-      <Link to="/skills" className={style.noUnderline}>
-        <h4 className={style.title}>Tech Skills</h4>
-      </Link>
-      <Link to="/projects" className={style.noUnderline}>
-        <h4 className={style.title}>Projects</h4>
-      </Link>
+      <ul>
+        <li className={style.title}>
+          <Link to="/" className={style.noUnderline}>
+            Home
+          </Link>
+        </li>
+        <li className={style.title}>
+          <Link to="/about" className={style.noUnderline}>
+            About me
+          </Link>
+        </li>
+        <li className={style.title}>
+          <Link to="/skills" className={style.noUnderline}>
+            Tech Skills
+          </Link>
+        </li>
+        <li className={style.title}>
+          <Link to="/projects" className={style.noUnderline}>
+            Projects
+          </Link>
+        </li>
+      </ul>
     </div>
   );
 };

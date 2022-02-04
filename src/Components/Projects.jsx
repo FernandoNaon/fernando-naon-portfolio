@@ -1,46 +1,44 @@
 import React from "react";
+import ControlledCarousel from "./ControlledCarousel";
 import style from "./Projects.module.css";
-import Carousel from "react-bootstrap/Carousel";
-import foto from "../Assets/skills/tooling/portfolio.png";
 
 const Projects = () => {
   return (
     <div className={style.projectsContainer}>
-      <Carousel fade>
-        <Carousel.Item>
-          <img className="d-block w-50" src={foto} alt="First slide" />
-          <Carousel.Caption>
-            <h3>SPA Full-stack app</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
-            alt="Second slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
+      <div className={style.cardContainer}>
+        <div className={style.card}>
+          <div className={style.carousel}>
+            <ControlledCarousel />
+          </div>
+          <div className={style.title}>
+            <h3>Recipedia</h3>
+          </div>
+          <div className={style.description}>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              Recipedia is a full-stack Single Page Application developed as
+              part of a 3-week challenge at Henry Bootcamp.
             </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
+          </div>
+          <div className={style.linksContainer}>
+            <a
+              className={style.link}
+              href="https://github.com/FernandoNaon/recipedia-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Ropository
+            </a>
+            <a
+              className={style.link}
+              href="https://recipedia-frontend.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
