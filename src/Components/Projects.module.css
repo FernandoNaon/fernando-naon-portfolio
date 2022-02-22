@@ -13,7 +13,7 @@
 
 .card {
   position: relative;
-  width: 400px;
+  width: 20rem;
   height: auto;
   margin: 30px;
   box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
@@ -21,17 +21,14 @@
   background-color: rgba(250, 250, 250, 0.356);
   overflow: hidden;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid rgba(255, 255, 255, 0.5); */
-  /* border-left: 1px solid rgba(255, 255, 255, 0.5); */
   backdrop-filter: blur(5px);
-  display: flex;
-  flex-direction: column;
 }
 
 .description {
-  padding: 0.5rem;
+  text-align: center;
 }
 .linksContainer {
   display: flex;

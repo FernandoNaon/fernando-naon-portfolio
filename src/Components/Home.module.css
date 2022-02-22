@@ -1,6 +1,4 @@
 .homeContainer {
-  /* border: 2px solid red; */
-
   top: 50%;
   left: 50%;
   margin-right: -50%;
@@ -12,14 +10,23 @@
 }
 
 .image {
-  height: 350px;
+  height: 21rem;
   border-radius: 50%;
   opacity: 0.9;
   transform: rotate(10deg);
 }
 
-.icons {
-  height: 45px;
-  width: 45px;
-  background-color: aliceblue;
+@media (max-width: 576px) {
+  .image {
+    height: 15rem;
+  }
+
+  .homeContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right {
+    margin: auto;
+  }
 }

@@ -30,3 +30,9 @@
   font-family: "Roboto Condensed", sans-serif;
   text-align: center;
 }
+
+@media (max-width: 576px) {
+  .aboutContainer {
+    width: 95vw;
+  }
+}

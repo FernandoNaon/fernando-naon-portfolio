@@ -1,21 +1,25 @@
-.playslistContainer {
+.playlistContainer {
   top: 50%;
   left: 50%;
-  /* margin-right: -50%; */
+  margin-right: -50%;
   transform: translate(-50%, -50%);
-  color: rgb(255, 255, 255);
-  display: flex;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  color: white;
+}
+
+.description {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
 }
 
 .playlist {
-  color: rgb(255, 255, 255);
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-top: -40%;
+}
+
+@media (max-width: 576px) {
+  .description {
+    text-align: center;
+    margin: -1rem 0 2rem 1rem;
+  }
 }
