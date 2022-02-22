@@ -9,6 +9,15 @@
   color: white;
   gap: 30px;
 }
+@media (max-width: 576px) {
+  .navContainer {
+    gap: 1px;
+  }
+  .title {
+    background-color: rgb(231, 220, 220);
+    margin-left: 1px;
+  }
+}
 
 .title {
   color: rgb(255, 239, 239);

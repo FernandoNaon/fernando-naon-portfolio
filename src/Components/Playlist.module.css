@@ -1,0 +1,21 @@
+.playslistContainer {
+  top: 50%;
+  left: 50%;
+  /* margin-right: -50%; */
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playlist {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40%;
+}
