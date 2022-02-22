@@ -14,7 +14,7 @@ const Playlist = () => {
       <div className={style.description}>
         <p>
           Besides web developer i'm a muscician, so here you can listen to some
-          of bands i played.
+          of the bands that i played.
         </p>
       </div>
       <div className={style.playlist}>
