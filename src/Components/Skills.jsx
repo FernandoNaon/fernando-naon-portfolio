@@ -16,9 +16,6 @@ const Skills = () => {
   return (
     <div className={style.skillsContainer}>
       <div className={style.techSkills}>
-        <div className={style.mainTitle}>
-          <h1>Tech Skills</h1>
-        </div>
         <div className={style.cardContainer}>
           <div className={style.card}>
             <h1 className={style.title}>FrontEnd</h1>
