@@ -10,7 +10,7 @@ const About = () => {
           curiosity, creativity, respect and responsibility.
         </p>
         <p className={style.text}>
-          I describe myself as a mostly self-thaught, versatile, organized and
+          I describe myself as a mostly self-taught, versatile, organized and
           fast-learning person who enjoys constantly enhancing his skills while
           keeping an eye on what’s next.
         </p>
