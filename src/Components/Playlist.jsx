@@ -13,9 +13,10 @@ const Playlist = () => {
     <div className={style.playlistContainer}>
       <div className={style.description}>
         <p>
-          Besides web developer i'm a muscician, so here you can listen to some
-          of the bands that i played.
+          Besides being a web developer i'm a musician, Below you can listen to
+          some of the bands where I played
         </p>
+        <p>Enjoy!</p>
       </div>
       <div className={style.playlist}>
         <iframe
