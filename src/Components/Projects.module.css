@@ -49,3 +49,22 @@ a {
   border-radius: 10%;
   padding: 00.5rem;
 }
+
+@media (max-width: 576px) {
+  .projectsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    height: 18rem;
+    margin: 0.4rem;
+  }
+
+  .icon {
+    height: 3rem;
+  }
+  p {
+    font-size: 0.6rem;
+  }
+}
