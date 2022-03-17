@@ -4,7 +4,7 @@ import style from "./Projects.module.css";
 import recipe1 from "../Assets/projects/recipe1.png";
 import recipe2 from "../Assets/projects/recipe2.png";
 import recipe3 from "../Assets/projects/recipe3.png";
-import groupProj1 from "../Assets/project/groupProj1.png";
+import groupProj1 from "../Assets/projects/groupProj1.png";
 import groupProj2 from "../Assets/projects/groupProj2.png";
 import groupProj3 from "../Assets/projects/groupProj3.png";
 
