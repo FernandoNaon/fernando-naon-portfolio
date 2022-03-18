@@ -30,7 +30,7 @@ const NavBar = () => {
         </li>
         <li className={style.title}>
           <Link to="/playlist" className={style.noUnderline}>
-            #$!@
+            Playlist
           </Link>
         </li>
       </ul>
