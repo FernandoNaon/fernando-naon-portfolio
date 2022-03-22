@@ -55,6 +55,9 @@ a {
     display: flex;
     flex-direction: column;
   }
+  .cardContainer {
+    height: 75vh;
+  }
 
   .card {
     height: 18rem;
