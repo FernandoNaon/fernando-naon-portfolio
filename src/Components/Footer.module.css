@@ -17,3 +17,9 @@
 .icon {
   height: 2.5rem;
 }
+
+@media (max-width: 576px) {
+  .iconsContainer {
+    gap: 30px;
+  }
+}
