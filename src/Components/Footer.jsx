@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import style from "./Footer.module.css";
 import github from "../Assets/skills/tooling/icons8-github.svg";
 import linkedin from "../Assets/skills/tooling/icons8-linkedin.svg";
 import mail from "../Assets/skills/tooling/icons8-download-mail-100.png";
+import cv from "../Assets/skills/tooling/icons8-cv-64 .png";
 
 const Footer = () => {
   return (
@@ -29,6 +31,9 @@ const Footer = () => {
         >
           <img src={mail} alt="github" className={style.icon} />
         </a>
+        <Link to="/resume">
+          <img src={cv} alt="github" className={style.icon} />
+        </Link>
       </div>
     </div>
   );

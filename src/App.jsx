@@ -9,6 +9,7 @@ import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Playlist from "./Components/Playlist";
+import Cv from "./Components/Cv";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <Route path="/playlist" component={Playlist} />
+          <Route path="/resume" component={Cv} />
 
           {/* <CenterTitle /> */}
         </Switch>
