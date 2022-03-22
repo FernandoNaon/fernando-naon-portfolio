@@ -33,7 +33,8 @@
 
 @media (max-width: 576px) {
   .aboutContainer {
-    width: 95vw;
+    height: 70vh;
+    width: auto;
     padding: 0.5rem;
   }
 }
