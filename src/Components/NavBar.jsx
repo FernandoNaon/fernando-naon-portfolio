@@ -19,13 +19,13 @@ const NavBar = () => {
           </Link>
         </li>
         <li className={style.title}>
-          <Link to="/skills" className={style.noUnderline}>
-            Skills
+          <Link to="/projects" className={style.noUnderline}>
+            Experience
           </Link>
         </li>
         <li className={style.title}>
-          <Link to="/projects" className={style.noUnderline}>
-            Projects
+          <Link to="/skills" className={style.noUnderline}>
+            Skills
           </Link>
         </li>
         <li className={style.title}>

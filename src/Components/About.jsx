@@ -14,11 +14,11 @@ const About = () => {
           fast-learning person who enjoys constantly enhancing his skills while
           keeping an eye on what’s next.
         </p>
-        <p className={style.text}>
+        {/* <p className={style.text}>
           I'm looking for the opportunity to get a job alongside people who are
           passionate about what they're doing, and most importantly, to be able
           to grow as a professional.
-        </p>
+        </p> */}
         <p className={style.text}>
           I also believe that diversity and inclusion are key players in
           teamwork.

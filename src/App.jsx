@@ -14,10 +14,10 @@ import Cv from "./Components/Cv";
 function App() {
   return (
     <BrowserRouter>
-      <div className={style.app}>
+      <div >
         <ParticleBackground />
         <Route path="/" component={NavBar} />
-        <Route path="/" component={Footer} />
+        {/* <Route path="/" component={Footer} /> */}
 
         <Switch>
           <Route exact path="/" component={Home} />

@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Home.module.css";
-import profilePic from "../Assets/IMG_6597.JPG";
+import profilePic from "../Assets/fernando.jpg";
 
 // import profilePic from "../Assets/skills/tooling/portfolio.png";
 
